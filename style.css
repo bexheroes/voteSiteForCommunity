@@ -1,0 +1,240 @@
+
+body{
+	margin:0;padding:0;
+	font-family:verdana;
+	font-size:13px;
+}
+
+body{
+	 background: url(http://hacettepe.ueuo.com/bg.jpg) no-repeat  center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;   
+    -o-background-size: cover;      
+    background-size: cover;   
+	min-height:800px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#page{
+	width:100%;
+}
+
+#page_in{
+	width:560px;
+	margin:0 auto;
+	
+}
+
+#form{
+	width:550px;
+	height:800px;
+	background:white;
+	border-radius:4px;
+	margin-top:20px;
+	position:relative;
+	box-shadow:2px 2px 2px #ddd;
+	border:1px solid #eee;
+}
+
+#form_in{
+	width:100%;
+	height:100%;
+	float:left;
+	margin:20px;
+	margin-bottom:10px;
+}
+
+#area_part{
+	margin:15px;
+	float:left;
+	width:95%;
+}
+
+#area_part_left{
+	width:100%;
+	float:left;
+	font-size:16px;
+	letter-spacing:.3px;
+	text-align:center;
+}
+
+#area_part_right{
+	width:100%;
+	float:left;
+	margin-top:10px;
+	position:relative;
+}
+
+.area_but{
+	width:95%;
+	height:42px;
+	border-radius:2px;
+	border:1px solid #aaa;
+	padding-left:10px;
+	letter-spacing:1.4px;
+	font-size:20px;
+	color:#888;
+	text-align:center;
+}
+
+#header{
+	width:100%;
+	float:left;
+}
+
+#header_top{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#area2{
+	width:100%;
+	margin-top:30px;
+	float:left;
+}
+
+#area2_colm{
+	float:left;
+	height:40px;
+	width:60px;
+	border-right:1px solid #ddd;
+	text-align:center;
+	font-size:12px;
+	color:#999;
+}
+
+#area2_line{
+	width:100%;
+	float:left;
+}
+
+.imp{
+	padding-top:10px;
+	padding-right:5px;
+	width:70px !important;
+	font-size:13px !important;
+	color:#999 !important;
+}
+
+span.bigcheck-target {
+  font-family: FontAwesome; 
+}
+
+input[type='checkbox'].bigcheck {
+  position: relative;
+  left: -999em; 
+}
+
+input[type='checkbox'].bigcheck + span.bigcheck-target:after {
+  content: "\f096";
+}
+
+span.bigcheck {
+  display: block;
+  color: #d5d5d5;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 2.7em; 
+  height:40px;
+  width:40px;
+  margin-top:-15px;
+  margin-left:10px;
+}
+
+input[type='checkbox'].bigcheck:checked + span.bigcheck-target:after {
+  content: "\f046"; 
+  color: #44db39;
+}
+
+.edit{
+	line-height:140%;
+	color:#888 !important;
+}
+
+#sign1{
+	position:absolute;
+	bottom:0;
+	left:0;
+	color:white;
+	margin-bottom:-21px;
+}
+#sign2{
+	position:absolute;
+	bottom:0;
+	right:0;
+	color:white;
+	margin-bottom:-21px;
+}
+
+#send{
+	width:100%;
+	float:left;
+	margin-top:15px;
+}
+
+#send_but{
+	width:86%;
+	margin:10px;
+	background:#37ca64;
+	border-radius:6px;
+	padding:10px;
+	padding-top:13px;
+	padding-bottom:13px;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	font-family:sans-serif;
+	box-shadow:2px 2px 1px #a8f8c1;
+	text-transform:uppercase;
+	font-size:16px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+#send_but:hover{
+	opacity:.9;
+}
+
+#error1,#error2{
+	position:absolute;
+	top:0;
+	right:0;
+	color:red;
+	margin:12px;
+	margin-right:35px;
+	display:none;
+}
+#gokcek{
+	zoom:100%;
+	border-radius:100%;
+}
+
+#add_top{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+#add_bot{
+	width:100%;
+	float:left;
+	font-size:50px;
+}
+
+#add{
+	display:none;
+}
+
+#gokcek{
+	margin-top:150px;
+}

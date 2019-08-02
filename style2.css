@@ -1,0 +1,64 @@
+
+body{
+	zoom:140%;
+}
+
+#page{
+	width:810px;
+}
+
+#page_line{
+	width:810px;
+	float:left;
+	border-bottom:1px solid #ccc;
+}
+
+#page_colm{
+	width:100px;
+	float:left;
+	border-right:1px solid #ccc;
+	height:40px;
+}
+
+#page_colm_in{
+	width:100%;
+	text-align:center;
+	font-size:13px;
+	margin-top:12px;
+	letter-spacing:.6;
+	font-family:sans-serif;
+}
+
+.first{
+	color:#666;
+}
+
+#total{
+	width:810px;
+	border:1px solid #ccc;
+	height:30px;
+	border-radius:4px;
+	margin-top:10px;
+	margin-bottom:30px;
+	position:relative;
+}
+
+#total_in{
+	background:#ddd;
+	width:200px;
+	margin:2px;
+	height:90%;
+	border-radius:2px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#total_in_in{
+	text-align:center;
+	font-family:sans-serif;
+	color:white;
+	padding-top:5px;
+	letter-spacing:1.4;
+	font-size:15px;
+}
